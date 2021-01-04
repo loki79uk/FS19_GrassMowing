@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="53">
+    <author>loki_79</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Grass Mowing</en>
+        <de>Gras Mähen</de>
+        <fr>Tonte De L'Herbe</fr>
+    </title>
+    <description>
+<en><![CDATA[This mod changes the minimum harvestable state for grass so that all mowers can cut all growth stages of grass.
+
+Features:
+- Makes grass harvestable from the first stage of growth
+- The yield is proportional to growth stage
+- All other crops are unaffected
+- Works with Seasons]]>
+</en>
+<de><![CDATA[Mit dieser Modifikation soll verhindert werden, dass Spieler Land kaufen, um die Ernte einzusammeln und das Land dann sofort wieder verkaufen. Könnte nützlich sein, wenn Sie keine Selbstkontrolle haben oder wenn Sie die Felder in einem Multi-Player Spiel nicht geändert haben wollen.
+
+Merkmale:
+- Wenn Land gekauft wird, werden alle enthaltenen Felder in einen gegrubberten Zustand zurückgesetzt.
+- Verkauftes Land bleibt unverändert
+- Funktioniert im Mehrspielermodus]]>
+</de>
+<fr><![CDATA[Cette modalité modifie l'état minimum de récolte de l'herbe afin que toutes les tondeuses puissent couper l'herbe à tous les stades de croissance.
+
+Caractéristiques :
+- Rend l'herbe récoltable dès le premier stade de croissance
+- Le rendement est proportionnel au stade de croissance
+- Toutes les autres cultures ne sont pas touchées
+- Travailler avec Seasons]]>
+</fr>
+    </description>
+
+	<multiplayer supported="true" />
+	<iconFilename>modIcon.dds</iconFilename>
+	<extraSourceFiles>
+		<sourceFile filename="GrassMowing.lua" />
+	</extraSourceFiles>
+</modDesc>
